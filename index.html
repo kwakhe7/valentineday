@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a romantic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div id="question-container">
+            <h1 class="header-text"> Miri,Will you be my Valentine? ❤️</h1>
+            <p class="sub-text">No pressure… but I already told my heart you’d say yes</p>
+            <div class="buttons">
+                <button id="yes-btn" class="btn yes-btn">YES 💘</button>
+                <button id="no-btn" class="btn no-btn">NO 🙃</button>
+            </div>
+        </div>
+
+        <div id="success-container" class="hidden">
+            <h1 class="header-text">YAY!! 💕</h1>
+            <p class="sub-text">I knew you’d say yes 😘</p>
+            <img src="images/happypep.jpeg" alt="Happy Pep" class="success-img">
+            <div class="heart-animation">❤️</div>
+        </div>
+    </div>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
